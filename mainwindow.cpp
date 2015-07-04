@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setCentralWidget(ui->textEdit);
+    this->setWindowTitle("qPad");
 }
 
 MainWindow::~MainWindow()
